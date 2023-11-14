@@ -8,6 +8,7 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
 #chatinput {
     width: 500px;
     height: 30px;
@@ -39,3 +40,4 @@ body {
 .bot {
     background: #8dd7f5;
 }
+
