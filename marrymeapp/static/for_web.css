@@ -253,7 +253,6 @@ body.dark .menu-bar .mode span.moon {
   min-width: 60px;
   cursor: pointer;
   border-radius: 6px;
-  background: var(--primary-color-light);
   transition: var(--tran-05);
 }
 

@@ -9,10 +9,6 @@ toggle.addEventListener("click", () => {
     sidebar.classList.toggle("close");
 });
 
-toggle.addEventListener("click", () => {
-    sidebar.classList.remove("close");
-});
-
 modeSwitch.addEventListener("click", () => {
     body.classList.toggle("dark");
 
