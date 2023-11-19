@@ -1,7 +1,6 @@
 from django.urls import path
-from marrymeapp import views
+from school_meal import views
 
 urlpatterns = [
     path("", views.index),
-    path("api/chat", views.chat)
 ]
