@@ -1,5 +1,5 @@
 from django.urls import path
-from calender import views
+from school_calendar import views
 
 urlpatterns = [
     path("", views.index),
