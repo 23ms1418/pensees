@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 
 def index(req):
-    return render(req, "index.html")
+    return render(req, "school_calendar.html")
