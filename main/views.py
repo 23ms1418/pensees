@@ -1,12 +1,8 @@
 from django.shortcuts import render, HttpResponse
 
 
-
-# Create your views here.
-
-
 def index(req):
-    return render(req, "index.html")
+    return render(req, "main.html")
 
 
 def chat(req):
