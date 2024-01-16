@@ -10,7 +10,8 @@
     <!--===== CSS =====-->
     <link rel = "stylesheet" href="{% static 'main.css' %}">
     <link rel = "stylesheet" href="/pensees/main/static/main.css">
-    
+
+    <link rel = "stylesheet" href="{% static 'chat_css.css' %}">
     <!--=== Google Fonts+Icons ===-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -18,21 +19,22 @@
 <body>
     {% include "nav.html" %}
 
-    <!--===== Main Description =====-->
-    <section class="main">
-        <div class="title-box">
-            <div class="text">title</div>
-            <div class="subtext">desc</div>
-        </div>
-
-    </section>
+    <article id="container">
+        <span id="conv-area"></span>
+        <article id="input-section">
+            <span id="autocomplete"></span>
+            <span id="chat-section">
+                <span id="chat-block"></span>
+                <input id="chat-input"/>
+            </span>
+        </article>
+    </article>
 
     <!--===== Animation + etc =====-->
     <script src="{% static 'main.js' %}"></script>
     <script src="/pensees/main/static/main.js"></script>
     
-    <!--===== A?I =====-->
-    <script src="{% static 'script.js' %}"></script>
+    <!--===== AI =====-->
+    <script src="{% static 'chat_script.js' %}"></script>
 </body>
 </html>
-

@@ -13,7 +13,6 @@
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -30,7 +29,7 @@
   --tran-03: all 0.3s ease;
   --tran-04: all 0.4s ease;
   --tran-05: all 0.5s ease;
-  }
+}
 
 body {
   height: 100vh;
@@ -58,11 +57,12 @@ body.dark {
   padding: 10px 14px;
   background: var(--sidebar-color);
   transition: var(--tran-05);
-  z-index:100
+  z-index:100;
+  box-sizing: border-box;
 }
 
 .sidebar.close {
-  width: 88px;
+  width: 88px
 }
 
 /* ===== Resuable CSS ===== */
@@ -168,6 +168,9 @@ body.dark .sidebar header .toggle {
   background: var(--primary-color-light);
   border-radius: 6px;
   transition: var(--tran-05);
+  display: flex;
+  height: 56px;
+  align-items: center;
 }
 
 .search-box input {
